@@ -33,8 +33,6 @@ def verificar_mudancas():
 
 
 def enviar_email(mensagem):
-    # marcosmarinhodev@gmail.com
-    # devmarinhomarcos
     mail = Emailer(email_remetente=os.environ.get('EMAIL_REMETENTE'),
                         senha_email=os.environ.get('SENHA_EMAIL'))
     lista_contatos = ['marcosmarinhodev@gmail.com']    
